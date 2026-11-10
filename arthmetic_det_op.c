@@ -2,11 +2,11 @@
 // Iske bina hum input/output functions jaise printf() ya scanf() use nahi kar sakte.
 #include <stdio.h>
 
-// main() function: Ye program ka entry point hota hai. 
+// main() function: Ye program ka entry point hota hai.
 // Operating system execution hamesha yahi se shuru karta hai.
 // 'int' ka matlab hai ki ye function complete hone par ek integer value return karega.
-int main() 
-{ 
+int main()
+{
     // Variable Declaration:
     // 'int' data type hai jo batata hai ki variable me sirf bina decimal wale integers (numbers) store honge.
     // Memory me 4 bytes (standard 32/64-bit systems me) reserve hote hain.
@@ -15,8 +15,8 @@ int main()
 
     // Variable Initialization / Assignment:
     // '=' assignment operator hai, jo right side ki value ko left side ke variable me daal deta hai.
-    a = 9;   // 'a' ki value ab 9 set ho gayi
-    b = 22;  // 'b' ki value ab 22 set ho gayi
+    a = 9;  // 'a' ki value ab 9 set ho gayi
+    b = 22; // 'b' ki value ab 22 set ho gayi
 
     // Arithmetic Operations aur Output:
     // printf() function screen/console par text print karne ke kaam aata hai.
@@ -39,11 +39,11 @@ int main()
 
     // 5. Modulus (%%):
     // '%' operator remainder (sheshfal) deta hai jab a ko b se divide kiya jaye.
-    // Note: printf ke format string me '%' print karne ke liye double '%%' likhna padta hai, 
+    // Note: printf ke format string me '%' print karne ke liye double '%%' likhna padta hai,
     // nahi to compiler use format specifier samajh leta hai.
     // 9 ko 22 se divide karne par quotient 0 aur remainder 9 bachta hai, isliye result 9 aayega.
     printf("a%%b=%d\n", a % b);
-     
+
     // return 0:
     // OS ko signal deta hai ki program bina kisi error ke successfully execute ho chuka hai.
     return 0;
